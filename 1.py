@@ -11,7 +11,7 @@ from datetime import datetime
 import threading
 import queue
 
-TOKEN = '7291754694:AAG5e1KTM_0aXt2xDOcb1a6lvMQmNXX5KWs'
+TOKEN = '1'
 
 activated_keys = {}
 blocked_keys = set() 
