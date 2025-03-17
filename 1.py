@@ -147,9 +147,9 @@ def start(message):
     
     text = """Ку! Я помогу тебе спарсить данные с Wallapop
 
-To start:
-1️ Активируй ключ
-2️ Отправь ссылку с es.wallapop.com
+LKz Для начала:
+1 Активируй ключ
+2 Отправь ссылку с es.wallapop.com
 
 Тебе нужен ключ? пиши @eelicedcer"""
 
@@ -204,13 +204,13 @@ def callback_handler(call):
         bot.send_photo(call.message.chat.id, random.choice(BANNERS))
         help_text = """Как использовать:
 
-1️ Активируй ключ
-2️ Отправь ссылку с es.wallapop.com
-3️ Получи CSV с результатами
+1 Активируй ключ
+2 Отправь ссылку с es.wallapop.com
+3 Получи CSV с Обьявами
 
-❗️ Важно:
-• Ключ работает на 1 аккаунт
-• Использование на другом = бан
+Важно:
+ Ключ работает на 1 аккаунт
+ Использование на другом = бан
 
 Вопросы? пиши @eelicedcer"""
         bot.send_message(call.message.chat.id, help_text)
